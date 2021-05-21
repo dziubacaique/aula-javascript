@@ -1,6 +1,16 @@
 /* Caique M Dziuba */ 
 // Maio de 2021
 
+var frutas = [{nome: "maça", cor: "vermelha"}, {nome:"uva", cor: "roxa"}] //lista de dicionario
+console.log(frutas);
+alert(frutas[1].nome);
+
+
+var fruta = {nome: "maça", cor: "vermelha"} //dicionario
+console.log(fruta.nome);
+alert(fruta.cor);
+
+/*
 var lista = ["maça", "pêra", "laranja"]; //lista
 lista.push("uva"); //incluir elemento na lista
 lista.pop(); //remove ultimo elemento da lista
@@ -11,7 +21,7 @@ console.log(lista.reverse()); //metodo que reverte lista
 console.log(lista.toString()); //transforma o array em string
 console.log(lista.toString()[0]); //exibe apenas primeiro elemnto DA STRING
 console.log(lista.join(" - ")); //substitui a virgula por outro elemento para separar as strings
-
+*/
 
 /*
 var nome = "Caique Dziuba";
