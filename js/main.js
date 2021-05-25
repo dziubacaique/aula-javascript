@@ -1,11 +1,37 @@
 /* Caique M Dziuba */ 
 // Maio de 2021
 
+function soma(n1, n2) {
+    return n1 + n2;
+}
 
+function setReplace(frase, nome, novo_nome) {
+    return frase.replace(nome, novo_nome);
+}
+
+var validar = 0; //variavel global, que é utilizada na função validaIdade
+function validaIdade (idade) {
+    if (idade >= 18) {
+        validar = true;
+    }
+    else {
+        validar = false;
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade?");
+console.log(validaIdade(idade));
+
+alert(soma(5, 10));
+alert(setReplace("Vai Japão", "Japão", "Brasil"));
+
+/*
 var dat = new Date(); //inicializando uma variavel data
 alert(dat); //data atual
 alert(dat.getMonth()+1); //mês atual
 alert(dat.getHours()); //obtem hora atual
+*/
 
 /*
 var countt;
