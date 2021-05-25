@@ -6,7 +6,18 @@
         <script type="text/javascript" src="js/main.js"></script>
     </head>
 
-    <body>
+    <body onload="load()"> //onload chama função quando o body for chamado
+        <button type="button" onclick="clicou()"> Contato</button> //botao para ser clicado
+        <p id="agradecimento" onclick="redirecionar()"></p>
+        <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)"> Passe o Mouse aqui</p>
+        <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)"> Passe o Mouse aqui</p>
+        
+        <select onchange="funcaoChange(this)"> //trocar-coletar valor
+            <option value="1"> Valor 1</option>
+            <option value="2"> Valor 2</option>
+            <option value="3"> Valor 3</option>
+        </select>
+
         <h1>Minha Pagina</h1>
     </body>
 </html>

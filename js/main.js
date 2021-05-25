@@ -1,9 +1,41 @@
 /* Caique M Dziuba */ 
 // Maio de 2021
 
+function clicou() {
+    document.getElementById("agradecimento").innerHTML = "<b>Linkedin</b>"; //injetando um texto negrito como HTML ao clicar no botão
+    
+    //alert("Obrigado por clicar");
+}
+
+function redirecionar(){
+    window.open("https://www.linkedin.com/in/caiquedziuba/"); //redireciona para uma nova janela
+    //window.location.href = "https://www.linkedin.com/in/caiquedziuba/"; //redireciona na mesma janela
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado";
+    //alert ("trocar texto");
+    elemento.innerHTML = "Obrigado"
+}
+
+function voltar (elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o Mouse aqui";
+    elemento.innerHTML = "Passe o Mouse aqui"
+}
+
+function load(){
+    alert("Pagina Carregada");
+}
+
+function funcaoChange(elemento) {
+    console.log(elemento.value);
+}
+
+/*
 function soma(n1, n2) {
     return n1 + n2;
 }
+
 
 function setReplace(frase, nome, novo_nome) {
     return frase.replace(nome, novo_nome);
@@ -25,6 +57,7 @@ console.log(validaIdade(idade));
 
 alert(soma(5, 10));
 alert(setReplace("Vai Japão", "Japão", "Brasil"));
+*/
 
 /*
 var dat = new Date(); //inicializando uma variavel data
